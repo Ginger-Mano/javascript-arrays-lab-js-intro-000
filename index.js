@@ -24,3 +24,8 @@ function appendKitten() {
   kittens.concat("Broom");
   return kittens.concat("Broom")
 }
+
+function prependKitten() {
+  kittens.slice()
+  return kittens.slice()
+}
